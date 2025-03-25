@@ -31,7 +31,7 @@ try {
     //     "cancel_url" => "https://example.com/cancel",
     //     "success_url" => "https://example.com/success",
     //     "customer" => [
-    //         "name" => "Imtiaz Ahmad",
+    //         "name" => "John Doe",
     //         "email" => "test@gmail.com"
     //     ]
     // ]);
