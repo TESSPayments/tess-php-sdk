@@ -1,6 +1,12 @@
 # TESS Payments PHP SDK
 First configure `MERCHANT_KEY` and `MERCHANT_PASSWORD` in `.env` file.
 
+Now run
+
+```console
+composer install
+```
+
 ## Checkout Integration
 ### Methods
 1. standardPayment
