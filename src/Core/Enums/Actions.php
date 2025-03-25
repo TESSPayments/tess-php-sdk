@@ -1,0 +1,14 @@
+<?php
+namespace TessPayments\Core\Enums;
+
+enum Actions: string
+{
+    case AUTHENTICATION = 'AUTHENTICATION';
+    case REFUND = 'REFUND';
+    case VOID = 'VOID';
+    case RECURRING = 'RECURRING';
+    case RETRY_RECURRING = 'RETRY_RECURRING';
+    case INQUIRY_BY_PAYMENT_ID = 'INQUIRY_BY_PAYMENT_ID';
+    case INQUIRY_BY_ORDER_ID = 'INQUIRY_BY_ORDER_ID';
+    case CALLBACK_NOTIFICATION = 'CALLBACK_NOTIFICATION';
+}
