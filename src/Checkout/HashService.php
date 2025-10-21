@@ -56,6 +56,7 @@ class HashService
                 );
                 break;
             case Actions::CALLBACK_NOTIFICATION:
+            case Actions::RETURN_URL:
                 $hashParams = array(
                     "public_id" => $params["id"],
                     "order_number" => $params['order_number'],
