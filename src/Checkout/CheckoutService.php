@@ -100,7 +100,7 @@ class CheckoutService
 
     private function handleAuthRequest(array $params, array $additionalFields): array
     {
-        $baseFields = ['operation', 'success_url', 'hash', 'order.number', 'order.amount', 'order.currency', 'order.description', 'customer.name'];
+        $baseFields = ['operation', 'success_url', 'hash', 'order.number', 'order.amount', 'order.currency', 'order.description'];
         $params['hash'] = HashService::generate($params, Actions::AUTHENTICATION);
         
         $this->validateParams(
